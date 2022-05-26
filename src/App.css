@@ -1,0 +1,30 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.appCard{
+  display: flex;
+
+}
+
+.container{
+  max-width: 95vw;
+}
+
+.container .carrossel{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.container .navbar{
+  display: flex;
+}
+
+
+
