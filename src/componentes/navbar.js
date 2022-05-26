@@ -6,11 +6,10 @@ function Navbar() {
        <div className='navbar'>
            <ul>
             <li><Link to='/'><img  class="senukimg" src="/img/carlimdoceu.png" /></Link></li>
-            <li><Link to='/'><a class="active">Home</a></Link></li>
-            <li><Link to='/produtos'><a class="active">Produtos</a></Link></li>
-            <li><Link to='/contato'><a class="active">Contato</a></Link></li>
+            <li><Link to='/'><a class="active">Home</a></Link></li>            
+
             <li><Link to='/login'><a class="active">Login</a></Link></li>
-            <li><Link to='/help'><a class="active">Help</a></Link></li>
+            
             <li><Link to='/carrinho'><a class="active">Carrinho</a></Link></li>
 
             <div class="search-container">

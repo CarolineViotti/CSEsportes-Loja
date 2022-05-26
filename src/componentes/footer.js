@@ -18,7 +18,7 @@ function Footer() {
         ·
         <a ><Link to='/produtos'>Marcas</Link></a>
         ·
-        <a href="https://l.instagram.com/?u=https%3A%2F%2Fbit.ly%2F3u6pFwg&e=ATPV3Ex36jwnd3tTNbgSU5K_ifyQMwyRxoMVw22HtkReB00wYHJ27Di4nnmvggNoZeKsKsQ5zII9OxVB&s=1">Contact</a>
+        <a href="https://bit.ly/3u6pFwg">Contato</a>
         </p>
         
         <p class="footer-company-name">CS Esportes</p>
