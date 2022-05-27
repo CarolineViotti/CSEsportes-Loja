@@ -21,9 +21,11 @@ function HomeH() {
     <div class="dropdown">
   <button class="dropbtn">Produtos</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">produtosV</a>
+    <a href="#">produtoW</a>
+    <a href="#">produtosX</a>
+    <a href="#">produtosY</a>
+    <a href="#">produtosZ</a>
   </div>
 </div>
 <div className='dpesquerda'>
@@ -36,6 +38,25 @@ function HomeH() {
 </div>
 </div>
 
+
+      <h1>produtos v</h1>
+      <div className='carrossel'>
+      
+        <Card /> 
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+
+      </div>
+      
+<br />
+<br />
+<br />
 
       <h1>produtos w</h1>
       <div className='carrossel'>
@@ -51,7 +72,7 @@ function HomeH() {
         <Card />
 
       </div>
-      
+
 <br />
 <br />
 <br />
@@ -90,10 +111,6 @@ function HomeH() {
 
       </div>
 
-<br />
-<br />
-<br />
-
       <h1>produtos z</h1>
       <div className='carrossel'>
       
@@ -108,6 +125,7 @@ function HomeH() {
         <Card />
 
       </div>
+
  <Footer />
     </div>
 

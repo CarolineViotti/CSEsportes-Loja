@@ -9,7 +9,7 @@ function Footer() {
         
         <div class="footer-left">
         
-        <h3> Esportes<span> Carlim Senuk</span></h3>
+        <h1> Esportes<span> Carlim Senuk</span></h1>
         
         <p class="footer-links">
         <a ><Link to='/produtos'>Vendas</Link></a>
