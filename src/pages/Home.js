@@ -32,7 +32,7 @@ function HomeH() {
 <div class="dropdown">
   <button class="dropbtn">Ajuda</button>
   <div class="dropdown-content">
-    <a href="#">E-mail</a>
+    <a href="https://mail.google.com/mail/u/0/?hl=pt-BR#search/jcsenuk%40gmail.com?compose=new">E-mail</a>
     <a href="https://bit.ly/3u6pFwg">WhatsApp</a>
   </div>
 </div>

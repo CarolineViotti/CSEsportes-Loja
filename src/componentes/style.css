@@ -1,6 +1,6 @@
 body {
   background-color: #dadada;
-  width: 100%;
+ 
   display: flex;
   justify-content: left;
   align-items: center;
@@ -340,7 +340,7 @@ input[type=text] {
 }
 
 .dropdown {
-  position: relative;
+  position: static;
   display: inline-block;
 }
 
@@ -369,3 +369,293 @@ input[type=text] {
 .dpesquerda{
   float: right;
 }
+
+/*CARRINHO*/
+
+#header-container {
+	width: 100%;
+  
+}
+
+#header, #content {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#header {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h2 {
+	color: #6B022A;
+	margin-bottom: 0;
+}
+
+table#cart {
+	width: 100%;
+}
+
+table#cart th {
+	text-align: left;
+	font-size: 0.8em;
+}
+
+th, td {
+	padding: 0.5em;
+	border-bottom: #ccd 1px dotted;
+}
+
+th.small, tr.item td.small {
+	width: 8em;
+}
+
+div.price, #total {
+	font-size: 1em;
+	color: #cc4444;
+}
+
+#total {
+	font-size: 1.25em;
+}
+
+tr.item {
+	vertical-align: top;
+	font-size: 100%;
+	padding-top: 1em;
+}
+
+a.product-link {
+	text-decoration: none;
+	color: #345986;
+	font-size: 1.25em;
+}
+
+a.author-link {
+	text-decoration: none;
+	color: #113157;	
+}
+
+a.delete-link {
+	font-size: 0.8em;
+}
+
+img.cover {
+	height: 7.5em;  /* 120/16 = 7.5 */
+}
+
+td.image {
+	width: 8.125em; /* 130/16 = 8.125; */
+}
+
+.in-stock {
+	color: #768216;
+}
+
+tr.footer {
+	text-align: right;
+}
+
+/*LOGIN*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+
+
+.screen {
+	background: linear-gradient(90deg, #6B022A, #b10245);
+	position: fixed;
+  text-align: center;
+	height: 600px;
+	width: 96%;
+	box-shadow: 0px 0px 24px #6B022A;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;
+	height: 100%;
+}
+
+.screen__background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: rgb(55, 48, 48);
+	top: -50px;
+	right: 120px;
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #6B022A;
+	top: -172px;
+	right: 0;
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #530120, #6B022A);
+	top: -24px;
+	right: 0;
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #6B022A;
+	top: 420px;
+	right: 50px;
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;
+	position: relative;
+  width: 200%;
+  margin-left: 20%;
+  
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #050507;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #01014a;
+	background: none;
+	padding: 10px;
+	padding-left: px;
+	font-weight: 700;
+	width: 75%;
+	transition: 0.2s;
+  
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #01014a;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+  margin-left: 40%;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #d4d3e8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #01014a;
+	box-shadow: 0px 2px 2px #01014a;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #01014a;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #01014a;
+  
+}
+
+.social-login {
+	position: absolute;
+  margin-right: 5%;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 8px #7875b5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);
+}
+
+.containerlogin{
+  width: 100%;
+  text-align: left;
+}
+
+
+.PRODUTOSMARCAS{
+  text-align: center;
+  width:340%;
+}
+
+.imgmarcas{
+  width: 8.125em; 
+}
+
+
+.botaocarrinho {
+  background-color: #6B022A; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.botaocarrinho {border-radius: 50%;}

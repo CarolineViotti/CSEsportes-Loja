@@ -12,21 +12,20 @@ function ProdutosP() {
 
 
 
-    <div className='container'>
+    <div >
 
     
 <br />
 <br />
 <br />
 
-      <h1>produtos w</h1>
-      <div className='carrossel'>
+      
+      <div className='PRODUTOSMARCAS'>
       
       
       <Produtox /> 
-      <Produtox /> 
-      <Produtox /> 
-      <Produtox /> 
+      <br />
+       
         
 
       </div>
