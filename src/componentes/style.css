@@ -659,3 +659,20 @@ tr.footer {
 }
 
 .botaocarrinho {border-radius: 50%;}
+
+.descrimg{
+
+  width: 30rem;
+  height: 30rem;
+}
+
+.descr{
+display: flex;
+margin-left: 20%;
+margin-top: 5%;
+ 
+}
+.descriPr{
+  margin-left: 20%;
+  margin-top: 10%;
+}
